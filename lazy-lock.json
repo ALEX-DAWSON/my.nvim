@@ -1,0 +1,4 @@
+{
+  "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
+  "pywal": { "branch": "master", "commit": "236aa48e741ff8d65c4c3826db2813bf2ee6f352" }
+}

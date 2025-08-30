@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alex/Pictures/Wallpapers/96YOTTEA_on_Pixiv_looking.png"
+let background = "#0B1011"
+let foreground = "#ceafda"
+let cursor     = "#ceafda"
+
+" Colors
+let color0  = "#0B1011"
+let color1  = "#D51D18"
+let color2  = "#F21C12"
+let color3  = "#AE395E"
+let color4  = "#AE4A62"
+let color5  = "#6E638A"
+let color6  = "#A8689F"
+let color7  = "#ceafda"
+let color8  = "#907a98"
+let color9  = "#D51D18"
+let color10 = "#F21C12"
+let color11 = "#AE395E"
+let color12 = "#AE4A62"
+let color13 = "#6E638A"
+let color14 = "#A8689F"
+let color15 = "#ceafda"
