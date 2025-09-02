@@ -1,7 +1,8 @@
-require("config.lazy")
+-- CHECK LOADED CONFIG
+print("init.lua loaded successfully")
 
-vim.opt.expandtab = true
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 2
-vim.opt.clipboard = "unnamedplus"
+-- IMPORTS
+require("config.lazy")
+require("config.options")
+require("config.keybinds")
+require("config.yankHighlight")
