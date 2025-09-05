@@ -26,7 +26,7 @@ require("lazy").setup({
   spec = {
     -- { "dylanaraps/pywal", config = function() vim.cmd.colorscheme "wal" end },
     { "catppuccin/nvim", name = "catppuccin", config = function() vim.cmd.colorscheme "catppuccin" end },
-    { "uZer/pywal16.nvim", config = function() vim.cmd.colorscheme "pywal16" end },
+    { "uZer/pywal16.nvim", priority = 10, config = function() vim.cmd.colorscheme "pywal16" end },
     -- import your plugins
     { import = "config.plugins" },
   },
