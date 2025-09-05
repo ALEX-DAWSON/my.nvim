@@ -22,5 +22,10 @@ return {
              cwd = vim.fn.stdpath("config")
            }    
          end)
+         vim.keymap.set("n", "<space>ec", function()
+           require('telescope.builtin').find_files {
+             cwd = vim.pwd()
+           }    
+         end)
        end
      }
