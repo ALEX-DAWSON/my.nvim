@@ -24,7 +24,7 @@ return {
          end)
          vim.keymap.set("n", "<space>ec", function()
            require('telescope.builtin').find_files {
-             cwd = vim.pwd()
+             vim.fn.getcwd()
            }    
          end)
        end
